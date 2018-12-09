@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "predeploy": [
+    ]
+  },
+  "hosting": {
+    "public": "webHost",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

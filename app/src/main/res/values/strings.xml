@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dreamware</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="transacted_string">Transaction At:</string>
+    <string name="quantity_string">Quantity:</string>
+    <string name="Add_Quantity_String">Enter the quantity of the item:</string>
+    <string name="add_transaction_string">Add Transaction</string>
+    <string name="clear_string">Clear</string>
+    <string name="update_transaction_string">Update Transaction</string>
+    <string name="load_transactions_string">Load Transactions</string>
+    <string name="current_stock_string">Current Stock:</string>
+    <string name="update_quantity_string">Update Quantity</string>
+    <string name="invitation_title">Invite:</string>
+    <string name="invitation_message">Invite Via:</string>
+    <string name="invitation_deep_link">Deep link</string>
+    <string name="invitation_custom_image">Custom Image</string>
+    <string name="invitation_cta">Invitation Cta</string>
+    <string name="share_string">Share</string>
+    <string name="apk_link_key">APK LINK</string>
+</resources>

@@ -1,0 +1,166 @@
+[debug] [2018-12-04T13:44:30.668Z] ----------------------------------------------------------------------
+[debug] [2018-12-04T13:44:30.671Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aabis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-12-04T13:44:30.671Z] CLI Version:   6.1.2
+[debug] [2018-12-04T13:44:30.671Z] Platform:      win32
+[debug] [2018-12-04T13:44:30.671Z] Node Version:  v11.1.0
+[debug] [2018-12-04T13:44:30.673Z] Time:          Tue Dec 04 2018 19:29:30 GMT+0545 (Nepal Time)
+[debug] [2018-12-04T13:44:30.673Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-04T13:44:30.686Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-04T13:44:30.687Z] > authorizing via signed-in user
+[debug] [2018-12-04T13:44:30.687Z] [iam] checking project dreamware-8a812 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-04T13:44:30.690Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-04T13:44:30.690Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-12-04T13:44:31.085Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:44:31.141Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dreamware-8a812:testIamPermissions  
+
+[debug] [2018-12-04T13:44:32.957Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:44:32.958Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dreamware-8a812  
+ 
+[debug] [2018-12-04T13:44:33.554Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dreamware-8a812'...
+[info] 
+[info] i  deploying functions, hosting
+[info] +  functions: Finished running predeploy script.
+[debug] [2018-12-04T13:44:37.007Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~6.0.0",
+    "firebase-functions": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-12-04T13:44:37.008Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/dreamware-8a812?view=CONSUMER_VIEW  
+ 
+[debug] [2018-12-04T13:44:37.008Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/dreamware-8a812?view=CONSUMER_VIEW  
+ 
+[debug] [2018-12-04T13:44:39.485Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:44:39.656Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2018-12-04T13:44:39.657Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dreamware-8a812  
+ 
+[debug] [2018-12-04T13:44:41.369Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:44:41.369Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/103468040056:getServerAppConfig  
+ 
+[debug] [2018-12-04T13:44:41.935Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:44:41.936Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dreamware-8a812/versions  
+
+[debug] [2018-12-04T13:44:44.312Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-12-04T13:44:44.314Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/dreamware-8a812/configs  
+ 
+[debug] [2018-12-04T13:44:44.991Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:45:21.775Z] ----------------------------------------------------------------------
+[debug] [2018-12-04T13:45:21.778Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aabis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-12-04T13:45:21.778Z] CLI Version:   6.1.2
+[debug] [2018-12-04T13:45:21.778Z] Platform:      win32
+[debug] [2018-12-04T13:45:21.778Z] Node Version:  v11.1.0
+[debug] [2018-12-04T13:45:21.780Z] Time:          Tue Dec 04 2018 19:30:21 GMT+0545 (Nepal Time)
+[debug] [2018-12-04T13:45:21.780Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-04T13:45:21.793Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-04T13:45:21.794Z] > authorizing via signed-in user
+[debug] [2018-12-04T13:45:21.794Z] [iam] checking project dreamware-8a812 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-04T13:45:21.796Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dreamware-8a812:testIamPermissions  
+
+[debug] [2018-12-04T13:45:23.611Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:45:23.612Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dreamware-8a812  
+ 
+[debug] [2018-12-04T13:45:24.187Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dreamware-8a812'...
+[info] 
+[info] i  deploying functions, hosting
+[info] +  functions: Finished running predeploy script.
+[debug] [2018-12-04T13:45:27.880Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~6.0.0",
+    "firebase-functions": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-12-04T13:45:27.882Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/dreamware-8a812?view=CONSUMER_VIEW  
+ 
+[debug] [2018-12-04T13:45:27.882Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/dreamware-8a812?view=CONSUMER_VIEW  
+ 
+[debug] [2018-12-04T13:45:30.352Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:45:30.648Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2018-12-04T13:45:30.649Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dreamware-8a812  
+ 
+[debug] [2018-12-04T13:45:32.333Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:45:32.333Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/103468040056:getServerAppConfig  
+ 
+[debug] [2018-12-04T13:45:32.874Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:45:32.876Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dreamware-8a812/versions  
+
+[debug] [2018-12-04T13:45:35.422Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-12-04T13:45:35.424Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/dreamware-8a812/configs  
+ 
+[debug] [2018-12-04T13:45:36.000Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (52.31 KB) for uploading
+[debug] [2018-12-04T13:45:36.413Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/dreamware-8a812/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2018-12-04T13:45:37.520Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:45:37.521Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-e80fb492-00b5-4c1c-b91b-e2a138df8a5d/0c10b56f-f268-4cc1-ac24-7ea53de55036.zip?GoogleAccessId=service-103468040056@gcf-admin-robot.iam.gserviceaccount.com&Expires=1543932991&Signature=hFuVn%2FDIwRKzX6CM9eJMFNkaNg815nxJe6DEp82ByqHb2U32v3cpBFyNBRqK9WQsojoI3hFooUCdPNahJ2HONHxffR9iFpgDlU8quw4ie3MgcarPlOYRiZHq3e%2BvuH5fiSyKF0Zf7qJsv9wxf8o%2BtngM5czQQ3MeV3TuzBfqpQjR%2BXtheAlSPCpwg95ThbhJMjIz93KKn2DoDWdin%2FJbsaJXv%2FwWHeieo3JeACNyxHqPlfVpJTKlZ2J4kxNpxEJ%2BSx%2B3cRHiiUpOVHgWQBJ4X2O0vwzRZlQ%2B1MHtbMUfdt0n4DqwTBrAn7Z43EsfN1JIUxG9vYNPzWPD8W%2FaZwekow%3D%3D  
+
+[debug] [2018-12-04T13:45:38.326Z] <<< HTTP RESPONSE 200
+[info] +  functions: functions folder uploaded successfully
+[info] i  hosting[dreamware-8a812]: beginning deploy...
+[info] i  hosting[dreamware-8a812]: found 2 files in webHost
+[debug] [2018-12-04T13:45:38.347Z] [hosting] hash cache [d2ViSG9zdA] load error: lines is not defined
+[debug] [2018-12-04T13:45:38.483Z] [hosting] hash cache [d2ViSG9zdA] stored for 2 files
+[debug] [2018-12-04T13:45:38.483Z] [hosting][hash queue][FINAL]
+[debug] [2018-12-04T13:45:38.483Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dreamware-8a812/versions/86a62d0b61244070:populateFiles  
+ <request body omitted>
+[debug] [2018-12-04T13:45:40.593Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T13:45:40.593Z] [hosting][populate queue][FINAL]
+[debug] [2018-12-04T13:45:40.593Z] [hosting] uploads queued: 0
+[debug] [2018-12-04T13:45:40.593Z] [hosting][upload queue][FINAL]
+[info] +  hosting[dreamware-8a812]: file upload complete
+[debug] [2018-12-04T13:45:40.595Z] [hosting] deploy completed after 2265ms
+[debug] [2018-12-04T13:45:40.902Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/dreamware-8a812/locations/-/functions  
+ 
+[debug] [2018-12-04T13:45:41.880Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 6 function addUser(us-central1)...
+[debug] [2018-12-04T13:45:41.885Z] Trigger is:  {"eventTrigger":{"resource":"projects/dreamware-8a812","eventType":"providers/firebase.auth/eventTypes/user.create","service":"firebaseauth.googleapis.com"}}
+[info] i  functions: updating Node.js 6 function removeUser(us-central1)...
+[debug] [2018-12-04T13:45:41.888Z] Trigger is:  {"eventTrigger":{"resource":"projects/dreamware-8a812","eventType":"providers/firebase.auth/eventTypes/user.delete","service":"firebaseauth.googleapis.com"}}
+[info] 
+The following functions are found in your project but do not exist in your local source code:
+	deleteOldItems(us-central1)
+
+If you are renaming a function or changing its region, it is recommended that you create the new function first before deleting the old one to prevent event loss. For more info, visit https://firebase.google.com/docs/functions/manage-functions#modify
+

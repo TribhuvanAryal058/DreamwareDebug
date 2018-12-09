@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "103468040056",
+    "firebase_url": "https://dreamware-8a812.firebaseio.com",
+    "project_id": "dreamware-8a812",
+    "storage_bucket": "dreamware-8a812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103468040056:android:458233031bc79589",
+        "android_client_info": {
+          "package_name": "np.com.dreamware.dreamware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103468040056-ltnnlitc8oklp9nmlmtqhtj5p52obpb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "np.com.dreamware.dreamware",
+            "certificate_hash": "3abeca857d51a9e53c48064c201ef1b4c7f63bf3"
+          }
+        },
+        {
+          "client_id": "103468040056-mj678soo7vnehn1kpr95kvdtr2v8gj22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwwX0xMffUPbNe97rLBYEsLs_Zmkju5HQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103468040056-mj678soo7vnehn1kpr95kvdtr2v8gj22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
